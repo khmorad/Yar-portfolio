@@ -1,0 +1,9 @@
+
+.slidebar-container {
+    flex: none;
+    background-color: rgba(19, 18, 18, 0.24);
+    height: 100vh;
+    min-width: 25%;
+    position: fixed;
+    box-shadow: 8px 0 10px rgba(0, 0, 0, 0.4);
+  }
