@@ -1,70 +1,60 @@
 export const projects = [
   {
-    title: "Plants vs Zombies API",
-    desc: "An API built with with NextTS and Tailwind CSS to help website builders build their websites about Plants-vs-Zombies-2 easily! Data has been scraped from fandom websites and all data are  error free",
+    title: "CodeAssistAI",
+    desc: "A project built to analyze and manipulate large projects using the OpenAI API",
     tags: [
       {
-        name: "NextTs",
+        name: "React.js",
         color: "red-600",
       },
       {
-        name: "TailwindCSS",
+        name: "OpenAI API",
         color: "green-600",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109025615442608168/pvz.png",
+    img: "https://images.idgesg.net/images/article/2018/02/robot_workforce_workers_artificial_intelligence_ai_thinkstock_905028734-100749936-large.jpg?auto=webp&quality=85,70",
     link: "https://pvz-2-api.vercel.app/",
     code: "https://github.com/code-cracked/plants-vs-zombies-api",
   },
   {
-    title: "Web-Chat-App",
-    desc: "An app made with NextJs to help each other communicate fastly and securely. We can also search for the friends with their username.Realtime updates on messages.",
+    title: "Ai Assist",
+    desc: "A website created for the sole purpose of assiting students on the writing skills using the power of AI",
     tags: [
       {
-        name: "NextJs",
+        name: "React.js",
         color: "red-600",
       },
       {
-        name: "ChakraUI",
+        name: "OpenAI API",
         color: "green-600",
       },
-      {
-        name: "SocketIO",
-        color: "yellow-600",
-      },
-      {
-        name: "MongoDB",
-        color: "blue-800",
-      },
+    
     ],
-    img: "https://user-images.githubusercontent.com/88134306/227576773-06c3a1d2-0a1a-4ab2-8d1f-e06d71408410.png",
-    link: "https://web-chat-app-brown.vercel.app",
-    code: "https://github.com/daniel-jebarson/web-chat-app",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuPz0mdAomWR1zGJHjDOipdzqZ27qXIecJtA&usqp=CAU",
+    link: "https://github.com/JamV8/essay_ai_v2",
+    code: "https://github.com/JamV8/essay_ai_v2",
   },
   {
-    title: "Exploiter(deprecated)",
-    desc: "This is the simple multi-featured discord bot which is in more than 90+ servers that resembles lords mobile as mini game. It contains the featiures of many bots such as dyno,carl-bot,mee6 etc.It helps to authorize the users, audit the messages and can also be used for other server developments and also for mini-games.  ",
+    title: "Data Analysis (stackoverflow)",
+    desc: "By using python this project demonstrates my ability to manipulate and analyze data effectively, extract meaningful conclusions, and visualize findings for a broader audience. By leveraging the power of Pandas, I've explored various aspects of the survey data, uncovering valuable information that can shed light on the developer landscape.",
     tags: [
       {
         name: "Python",
         color: "red-600",
       },
       {
-        name: "Discord.py",
+        name: "pandas",
         color: "green-600",
       },
       {
-        name: "discord-interactions",
+        name: "numpy",
         color: "yellow-600",
       },
-      {
-        name: "Flask",
-        color: "blue-800",
-      },
+   
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109031291522928670/Exploiter.png",
+    img: "https://cdn.stackoverflow.co/images/jo7n4k8s/production/01318ce55cab0d508bd88b6ec5610ec1c659060a-2400x1260.png?w=1200&h=630&auto=format&dpr=2",
     link: "https://drive.google.com/file/d/1npEOuOhQh-1zRiLB9fFn-6ORTwd1gZkl/view",
-    code: "https://github.com/daniel-jebarson/EXPLOITER",
+    code: "https://github.com/khmorad/stackoverflow_data_analysis",
   },
   {
     title: "Stock Market",
@@ -88,8 +78,8 @@ export const projects = [
     code: "https://github.com/daniel-jebarson/Stock-Market",
   },
   {
-    title: "You-Farm",
-    desc: "An app made with NextJs, Machine Learning and ExpressJs to help farmers to sell their crops without intermediate. It also suggests which crops are needed for the specific soil.",
+    title: "Cisco Sextant Dashboard",
+    desc: "Created dashboard which uses ",
     tags: [
       {
         name: "NextJs",

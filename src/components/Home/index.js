@@ -29,13 +29,15 @@ export default function Home() {
               "I'm a 3th yr Computer science in San Jose State University",
               "You can 📲 me through discord or ✉️",
             ],
-            delay: 85,
+            delay: 48,
             pauseFor: 1500,
             autoStart: true,
             loop: true,
             stringSplitter: stringSplitter,
           }}
         />
+        {" "}
+    
       </div>
       <button
         className="py-2 mx-auto px-7 bg-transparent border-2 w-fit border-blue-500 rounded-sm  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800"

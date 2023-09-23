@@ -25,14 +25,14 @@ export default function Resume() {
                 ></path>
               </svg>
             </span>
-            <h3 class="flex items-center mb-1 text-lg font-semibold  text-white ml-28">
+            <h3 class="mb-1 text-lg font-semibold text-white">
               AWS Cloud Practioner
             </h3>
             <time class="block pt-1 pb-3  text-sm font-normal leading-none  text-gray-500">
               Completed on July 7th, 2023
             </time>
             <p class="mb-4 text-base font-normal  text-gray-400">
-              Provides overall understanding of cloud computing concepts,
+              Created a reactive dashboard using React.js,
               independent of specific technical roles. It provides a detailed
               overview of cloud concepts, AWS core services, security,
               architecture, pricing, and support.
@@ -75,10 +75,10 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-              BackEnd Development and Apis
+              Associate Degree in Computer Science and Mathmatics
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
-              Completed on May 28th, 2022
+              Completed on May 25th, 2023
             </time>
             <p class="text-base font-normal text-gray-400">
               Learned how to write back end apps with Node.js and npm. I also
@@ -123,17 +123,15 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-              Frontend Development Libraries
+            Cisco Virual Experience Program on Forage 
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
               Completed on December 9, 2022
             </time>
             <p class="text-base font-normal text-gray-400">
-              Learns how to style your site quickly with Bootstrap. I also learn
-              how to add logic to your CSS styles and extend them with Sass.
-              Later, I also built a shopping cart and other applications to
-              learn how to create powerful Single Page Applications (SPAs) with
-              React and Redux.
+              Through this program I have developed a better undrestanding of how Cisco employees approach problems, organize 
+              and prioritize and communicate clearly and apply these skils to projects
+              
             </p>
             <a
               target="_blank"
@@ -161,16 +159,15 @@ export default function Resume() {
         <div className="flex flex-col text-center" data-aos="slide-up">
           <div className="text-3xl font-bold py-3">My Skills</div>
           <div className="ml-16 flex flex-col gap-8 mt-6">
-            <BarGraph name={"JavaScript"} percent={65} />
-            <BarGraph name={"React"} percent={75} />
-            <BarGraph name={"python"} percent={60} />
+            <BarGraph name={"JavaScript"} percent={86} />
+            <BarGraph name={"React.js"} percent={92} />
+            <BarGraph name={"python"} percent={74} />
             <BarGraph name={"TypeScript"} percent={30} />
             <BarGraph name={"Java"} percent={60} />
-            <BarGraph name={"HTML/CSS"} percent={85} />
+            <BarGraph name={"HTML/CSS"} percent={96} />
             <BarGraph name={"SQL"} percent={65} />
-            <BarGraph name={"AWS"} percent={40} />
-            <BarGraph name={"C++/c"} percent={70} />
-            <BarGraph name={"JavaScript"} percent={65} />
+            <BarGraph name={"AWS"} percent={20} />
+            <BarGraph name={"C++/C"} percent={82} />
           </div>
 
           <a
