@@ -12,9 +12,9 @@ export const projects = [
         color: "green-600",
       },
     ],
-    img: "https://images.idgesg.net/images/article/2018/02/robot_workforce_workers_artificial_intelligence_ai_thinkstock_905028734-100749936-large.jpg?auto=webp&quality=85,70",
-    link: "https://pvz-2-api.vercel.app/",
-    code: "https://github.com/code-cracked/plants-vs-zombies-api",
+    img: "http://i.hmp.me/m/2d67b20e87f96c2cfbed4571a9282d91.png",
+    link: "https://code-assist-ai.vercel.app/",
+    code: "https://github.com/khmorad/code-assist-ai",
   },
   {
     title: "Ai Assist",
@@ -53,57 +53,54 @@ export const projects = [
    
     ],
     img: "https://cdn.stackoverflow.co/images/jo7n4k8s/production/01318ce55cab0d508bd88b6ec5610ec1c659060a-2400x1260.png?w=1200&h=630&auto=format&dpr=2",
-    link: "https://drive.google.com/file/d/1npEOuOhQh-1zRiLB9fFn-6ORTwd1gZkl/view",
+    link: "https://github.com/khmorad/stackoverflow_data_analysis",
     code: "https://github.com/khmorad/stackoverflow_data_analysis",
   },
   {
-    title: "Stock Market",
-    desc: "Stock Market Website done with ReactJs as Frontend and Express as Backend. This websites gives practice for people those who want to start using stock market. It is based on realtime update of stock value.",
+    title: "Stock Prediction Experiment",
+    desc: "A python program design to use machiene learning models like linear regression and Long Short-Term Memory to predict stocks ",
     tags: [
       {
-        name: "ReactJs",
+        name: "python",
         color: "red-600",
       },
       {
-        name: "ExpressJs",
+        name: "pandas",
         color: "green-600",
       },
       {
-        name: "MongoDB",
+        name: "Machine Learning",
         color: "blue-800",
       },
+      {
+        name: "polygon API",
+        color: "yellow-600",
+      },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109032447783469097/image.png",
-    link: "https://stock-market-seven.vercel.app/",
-    code: "https://github.com/daniel-jebarson/Stock-Market",
+    img: "https://cdn.dribbble.com/users/1330777/screenshots/15577912/media/3441c6b4d1427a5e54d2b53607891a71.gif",
+    link: "https://github.com/khmorad/stock_pridiction_experiment",
+    code: "https://github.com/khmorad/stock_pridiction_experiment",
   },
   {
     title: "Cisco Sextant Dashboard",
     desc: "Created dashboard which uses ",
     tags: [
       {
-        name: "NextJs",
+        name: "React.js",
         color: "red-600",
       },
       {
-        name: "MaterialUI",
+        name: "NextJs",
         color: "green-600",
       },
       {
-        name: "ExpressJs",
+        name: "ipify API",
         color: "yellow-600",
       },
-      {
-        name: "FireBase",
-        color: "blue-800",
-      },
-      {
-        name: "Machine Learning",
-        color: "orange-600",
-      },
+     
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109035277814611978/Screenshot_19.png",
-    link: "https://github.com/code-cracked/you-farm",
-    code: "https://github.com/code-cracked/you-farm",
+    img: "http://i.hmp.me/m/4f09227edd79693234f58517a4463b68.png",
+    link: "https://www.youtube.com/watch?v=YtyWXA_kwBk&ab_channel=khashayarmoradpour",
+    code: "https://github.com/khmorad/cisco_sextant_tasks",
   },
 ];

@@ -105,7 +105,7 @@ export default function Slidebar() {
         </div>
         <div
           onClick={() =>
-            window.open("https://www.facebook.com/daniel.jebarson.9", "_blank")
+            window.open("https://www.facebook.com", "_blank")
           }
         >
           <FacebookIcon className="cursor-pointer hover:scale-105" />

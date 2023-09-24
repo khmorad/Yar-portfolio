@@ -26,10 +26,10 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-              AWS Cloud Practioner
+              Bancholers in Computer Science
             </h3>
             <time class="block pt-1 pb-3  text-sm font-normal leading-none  text-gray-500">
-              Completed on July 7th, 2023
+              Aug 2023 - Present
             </time>
             <p class="mb-4 text-base font-normal  text-gray-400">
               Created a reactive dashboard using React.js,
@@ -38,7 +38,7 @@ export default function Resume() {
               architecture, pricing, and support.
             </p>
             <a
-              href="https://www.credly.com/badges/bf6b9024-d4f8-465d-b345-d9b0c5a7abab/public_url"
+              href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cisco/kinDTvjiZRcYbwqLo_Cisco_3dr8H2hQyoawrwMtT_1691185178215_completion_certificate.pdf"
               target="_blank"
               rel="noreferrer"
               class="inline-flex items-center px-4 py-2 mt-2 text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
@@ -136,7 +136,7 @@ export default function Resume() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.freecodecamp.org/certification/Daniel_Jebarson/front-end-development-libraries"
+              href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cisco/kinDTvjiZRcYbwqLo_Cisco_3dr8H2hQyoawrwMtT_1691185178215_completion_certificate.pdf"
               class="inline-flex items-center px-4 py-2 mt-5 text-sm font-medium border rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
             >
               <svg
@@ -171,8 +171,9 @@ export default function Resume() {
           </div>
 
           <a
-            href={require("../../assets/files/K.Moradpour Résumé.pdf")}
-            download={"K.Moradpour Résumé.pdf"}
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1gMCClMmKPAH55rmE3mEXyRm1Dv0e4cQf/view?usp=drive_link"
             class="inline-flex items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
           >
             Download Resume <DownloadIcon />
