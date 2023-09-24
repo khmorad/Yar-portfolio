@@ -63,10 +63,11 @@ export default function About() {
           </div>
           <button className="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
             <a
-              href={require("../../assets/files/K.Moradpour Résumé.pdf")}
-              download={"K.Moradpour Résumé.pdf"}
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1gMCClMmKPAH55rmE3mEXyRm1Dv0e4cQf/view?usp=drive_link"
             >
-              Download CV
+              view Resune
               <DownloadIcon />
             </a>
           </button>
