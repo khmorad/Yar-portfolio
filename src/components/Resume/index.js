@@ -32,10 +32,7 @@ export default function Resume() {
               Aug 2023 - Present
             </time>
             <p class="mb-4 text-base font-normal  text-gray-400">
-              Created a reactive dashboard using React.js,
-              independent of specific technical roles. It provides a detailed
-              overview of cloud concepts, AWS core services, security,
-              architecture, pricing, and support.
+              during my time in San Jose State University im planning to optaine my bachelors in computer science while being more involved into community and gain more experience.
             </p>
             <a
               href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cisco/kinDTvjiZRcYbwqLo_Cisco_3dr8H2hQyoawrwMtT_1691185178215_completion_certificate.pdf"
@@ -81,12 +78,11 @@ export default function Resume() {
               Completed on May 25th, 2023
             </time>
             <p class="text-base font-normal text-gray-400">
-              Learned how to write back end apps with Node.js and npm. I also
-              built web applications with the Express framework, and build some
-              mini-projects
+              During my time in Diablo Valley College I have learned most of the crucial computer science consepts while also learning how to create applications on my own time and have attended multiple hackathons to test my knowledge while improving my leadership experience.
+
             </p>
             <a
-              href="https://www.freecodecamp.org/certification/Daniel_Jebarson/back-end-development-and-apis"
+              href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cisco/kinDTvjiZRcYbwqLo_Cisco_3dr8H2hQyoawrwMtT_1691185178215_completion_certificate.pdf"
               target="_blank"
               rel="noreferrer"
               class="inline-flex items-center px-4 py-2 mt-5 text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
@@ -126,7 +122,7 @@ export default function Resume() {
             Cisco Virual Experience Program on Forage 
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
-              Completed on December 9, 2022
+              Completed on Augest 4, 2023
             </time>
             <p class="text-base font-normal text-gray-400">
               Through this program I have developed a better undrestanding of how Cisco employees approach problems, organize 
