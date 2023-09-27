@@ -30,7 +30,7 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            I love play sports, piano, and video games. I am
+            I love to play sports, piano, and video games. I am
             currently pursuing Bacholers degree in San Jose State University. I am {getDate()}{" "}
             years old. I love exploring and learning new language and technologies. 
           </p>
