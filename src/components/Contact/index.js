@@ -239,11 +239,7 @@ export default function Contact() {
                 <FacebookIcon className="cursor-pointer hover:scale-105" />
               </div>{" "}
             </div>
-            <div className="mt-6 italic text-sm font-medium text-blue-500 ">
-              <span className=" pl-1 ">Copyright</span>
-              <CopyrightIcon className="cursor-pointer mx-1" />
-              <span>2023  Khashayar Moradpour</span>
-            </div>
+   
           </div>
         </div>
         <ToastContainer

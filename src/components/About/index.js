@@ -30,15 +30,15 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            I love playing music, reading comics and playing games. I am
+            I love play sports, piano, and video games. I am
             currently pursuing Bacholers degree in San Jose State University. I am {getDate()}{" "}
-            years old. I love exploring new language and technologies. 
+            years old. I love exploring and learning new language and technologies. 
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-            I am currently looking for Internsgips.I worked on reactJs, NextJs, TypeScript, python and many more. I am
+            I am currently looking for Internships. In the past I have worked with React.js, Next.js, TypeScript, Python and many more mentioned one my <a className= "text-yellow-600"href="#resume">resume</a>. I am
             also looking to collaborate in open-source projects.
           </p>
         </div>
@@ -67,7 +67,7 @@ export default function About() {
               rel="noreferrer"
               href="https://drive.google.com/file/d/1gMCClMmKPAH55rmE3mEXyRm1Dv0e4cQf/view?usp=drive_link"
             >
-              view Resune
+              Download Resume
               <DownloadIcon />
             </a>
           </button>

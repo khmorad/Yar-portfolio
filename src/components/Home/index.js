@@ -25,7 +25,7 @@ export default function Home() {
           options={{
             strings: [
               "✋I'm Khashayar Moradpour",
-              "I'm an enthusiast Full-Stack 🌐developer",
+              "I'm an anspiring Software Developer!",
               "I'm a 3th yr Computer science in San Jose State University",
               "You can 📲 me through discord or ✉️",
             ],
@@ -35,8 +35,11 @@ export default function Home() {
             loop: true,
             stringSplitter: stringSplitter,
           }}
+          
         />
+
         {" "}
+        
     
       </div>
       <button
