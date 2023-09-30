@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "CodeAssistAI",
-    desc: "A project built to analyze and manipulate large projects using the OpenAI API",
+    desc: "A full stack application built to analyze and manipulate large projects using the OpenAI API",
     tags: [
       {
         name: "React.js",
@@ -10,6 +10,10 @@ export const projects = [
       {
         name: "OpenAI API",
         color: "green-600",
+      },
+      {
+        name: "Django",
+        color: "blue-300",
       },
     ],
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1156719971863367690/code-assist-ai.png?ex=6515feec&is=6514ad6c&hm=b048df6a4fd6e9a19de6aa4a13122b460d0be490e465cf4c29274a102c561a4d&",
@@ -83,7 +87,7 @@ export const projects = [
   },
   {
     title: "Cisco Sextant Dashboard",
-    desc: "Created dashboard which uses ",
+    desc: "Created dashboard which uses Node.js and React.js to create dashboard that provides all the relevent information about current device being used.",
     tags: [
       {
         name: "React.js",
