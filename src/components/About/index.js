@@ -38,7 +38,7 @@ export default function About() {
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-            I am currently looking for Internships. In the past I have worked with React.js, Next.js, TypeScript, Python and many more mentioned one my <a className= "text-yellow-600"href="#resume">resume</a>. I am
+            I am currently looking for Internships. I have over 5 years exprience in coding which in the past I have worked with React.js, Next.js, TypeScript, Python and many more mentioned one my <a className= "text-yellow-600"href="#resume">resume</a>. I am
             also looking to collaborate in open-source projects.
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function About() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1gMCClMmKPAH55rmE3mEXyRm1Dv0e4cQf/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1ejQsqtKWfynckolW3CE0TMHcRIvBWp-O/view?usp=sharing"
             >
               Download Resume
               <DownloadIcon />
