@@ -209,17 +209,6 @@ export default function Contact() {
               <div
                 onClick={() =>
                   window.open(
-                    "",
-                    "_blank"
-                  )
-                }
-              >
-                {" "}
-                <InstagramIcon className="cursor-pointer hover:scale-105" />
-              </div>
-              <div
-                onClick={() =>
-                  window.open(
                     "https://www.linkedin.com/in/kmoradpour/",
                     "_blank"
                   )
@@ -231,13 +220,16 @@ export default function Contact() {
               <div
                 onClick={() =>
                   window.open(
-                    "https://www.facebook.com/Khashayar Moradpour",
+                    "",
                     "_blank"
                   )
                 }
               >
-                <FacebookIcon className="cursor-pointer hover:scale-105" />
-              </div>{" "}
+                {" "}
+                <InstagramIcon className="cursor-pointer hover:scale-105" />
+              </div>
+
+
             </div>
    
           </div>

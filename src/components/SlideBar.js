@@ -84,14 +84,7 @@ export default function Slidebar() {
         >
           <GitHubIcon className="cursor-pointer hover:scale-105" />
         </div>
-        <div
-          onClick={() =>
-            window.open("", "_blank")
-          }
-        >
-          {" "}
-          <InstagramIcon className="cursor-pointer hover:scale-105" />
-        </div>
+
         <div
           onClick={() =>
             window.open(
@@ -105,10 +98,11 @@ export default function Slidebar() {
         </div>
         <div
           onClick={() =>
-            window.open("https://www.facebook.com", "_blank")
+            window.open("", "_blank")
           }
         >
-          <FacebookIcon className="cursor-pointer hover:scale-105" />
+          {" "}
+          <InstagramIcon className="cursor-pointer hover:scale-105" />
         </div>
       </div>
     </div>
