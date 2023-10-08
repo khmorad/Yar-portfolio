@@ -30,9 +30,7 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            I love to play sports, piano, and video games. I am
-            currently pursuing Bacholers degree in San Jose State University. I am {getDate()}{" "}
-            years old. I love exploring and learning new language and technologies. 
+            I am {getDate()}-years-old student at San Jose State University, pursuing a Bachelor's degree with a strong focus on computer science. Alongside my academic pursuits, I excel in sports, piano, and have a deep passion for video games. This diverse skill set has honed my discipline, attention to detail, and ability to thrive under pressure traits essential in software engineering. 
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
