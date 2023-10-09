@@ -26,7 +26,7 @@ export default function Display() {
   }, []);
 
   return (
-    <div className={`pl-[${padding}] w-screen back text-white`}>
+    <div className={`pl-[25%]    w-screen back text-white`}>
       <Home />
       <About />
       <Resume />
