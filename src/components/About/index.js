@@ -4,6 +4,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
 
 export default function About() {
+  
   const getDate = () => {
     //changing the age without hard coding it
     var dob = new Date("09/11/2000");

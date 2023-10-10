@@ -73,3 +73,31 @@
   pointer-events: none;
   mix-blend-mode: difference;
 }
+
+
+.pl-25 {
+  padding-left: 25%;
+}
+.custom-left{
+  left: 62%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.back {
+  /* Add your background styles here */
+}
+
+.text-white {
+  color: white;
+}
+
+/* Media query for screens smaller than or equal to 768px */
+@media (max-width: 768px) {
+  .pl-25 {
+    padding-left: 0;
+  }
+  
+}

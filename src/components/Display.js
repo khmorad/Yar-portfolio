@@ -18,6 +18,9 @@ export default function Display() {
       }
     };
 
+    // Call the handleResize function on initial load
+    handleResize();
+
     window.addEventListener('resize', handleResize);
 
     return () => {
@@ -26,12 +29,13 @@ export default function Display() {
   }, []);
 
   return (
-    <div className={`pl-[25%]    w-screen back text-white`}>
-      <Home />
-      <About />
-      <Resume />
-      <Projects />
-      <Contact />
-    </div>
+<div className={`pl-25 w-screen back text-white`}>
+  <Home />
+  <About />
+  <Resume />
+  <Projects />
+  <Contact />
+</div>
+
   );
 }
