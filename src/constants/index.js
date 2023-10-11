@@ -34,7 +34,7 @@ export const projects = [
       },
     
     ],
-    img: "https://cdn.discordapp.com/attachments/1015033055775305831/1161776899392024647/image.png?ex=6539880d&is=6527130d&hm=809782cc1028374d6fdb6de5386c345af71398d64a19f4ce96310cb35e1f2418&",
+    img: "https://cdn.discordapp.com/attachments/1015033055775305831/1161793688947658822/image.png?ex=653997b0&is=652722b0&hm=ddfd1815f13ff7818316f6bda4cf541a033c2ac6983ae8804f805e03005bc90f&",
     link: "https://github.com/JamV8/essay_ai_v2",
     code: "https://github.com/JamV8/essay_ai_v2",
   },
