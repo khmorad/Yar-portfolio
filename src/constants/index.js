@@ -35,8 +35,8 @@ export const projects = [
     
     ],
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1161793688947658822/image.png?ex=653997b0&is=652722b0&hm=ddfd1815f13ff7818316f6bda4cf541a033c2ac6983ae8804f805e03005bc90f&",
-    link: "https://github.com/JamV8/essay_ai_v2",
-    code: "https://github.com/JamV8/essay_ai_v2",
+    link: "https://ai-assist-eight.vercel.app/",
+    code: "https://github.com/khmorad/AI_Assist_MetroHacks_2022",
   },
   {
     title: "Data Analysis (stackoverflow)",
