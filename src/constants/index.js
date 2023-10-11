@@ -34,7 +34,7 @@ export const projects = [
       },
     
     ],
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuPz0mdAomWR1zGJHjDOipdzqZ27qXIecJtA&usqp=CAU",
+    img: "https://cdn.discordapp.com/attachments/1015033055775305831/1161776899392024647/image.png?ex=6539880d&is=6527130d&hm=809782cc1028374d6fdb6de5386c345af71398d64a19f4ce96310cb35e1f2418&",
     link: "https://github.com/JamV8/essay_ai_v2",
     code: "https://github.com/JamV8/essay_ai_v2",
   },
@@ -87,7 +87,7 @@ export const projects = [
   },
   {
     title: "Cisco Sextant Dashboard",
-    desc: "Created dashboard which uses Node.js and React.js to create dashboard that provides all the relevent information about current device being used.",
+    desc: "Created dashboard which uses Node.js and React.js that provides all the relevent information about current device being used.",
     tags: [
       {
         name: "React.js",
