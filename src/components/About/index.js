@@ -37,7 +37,7 @@ export default function About() {
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-            I am currently looking for Internships. I have over 5 years exprience in coding and I have attended many <a className= "text-yellow-600"href="https://devpost.com/woddyowl">hackathons</a> which in the past I have worked with React.js, Next.js, TypeScript, Python and many more mentioned one my <a className= "text-yellow-600"href="#resume">resume</a>. I am
+            I am currently looking for Internships. I have over 5 years exprience in coding and I have attended many <a className= "text-yellow-600"href="https://devpost.com/woddyowl">hackathons</a> which in the past I have worked with React.js, Next.js, Python and many more mentioned on my <a className= "text-yellow-600"href="#resume">resume</a>. I am
             also looking to collaborate in open-source projects.
           </p>
         </div>
