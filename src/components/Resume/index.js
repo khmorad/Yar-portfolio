@@ -26,7 +26,7 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-              Bancholers in Computer Science
+              BS in Computer Science
             </h3>
             <time class="block pt-1 pb-3  text-sm font-normal leading-none  text-gray-500">
               Aug 2023 - Present
@@ -53,7 +53,7 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-              Associate Degree in Computer Science & Mathmatics
+              AS Degree in Computer Science & Mathmatics
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
               Completed on May 25th, 2023
