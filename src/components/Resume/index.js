@@ -170,10 +170,10 @@ export default function Resume() {
           <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1ejQsqtKWfynckolW3CE0TMHcRIvBWp-O/view?usp=sharing"
+              href="https://drive.google.com/file/d/1j3zq63xCjbE4RBF-Bumj124Z79jFsoj8/view?usp=sharing"
             class="inline-flex items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
           >
-            Download Resume <DownloadIcon />
+            View Resume 
           </a>
         </div>
       </div>

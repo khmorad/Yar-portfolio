@@ -64,10 +64,9 @@ export default function About() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1ejQsqtKWfynckolW3CE0TMHcRIvBWp-O/view?usp=sharing"
+              href="https://drive.google.com/file/d/1j3zq63xCjbE4RBF-Bumj124Z79jFsoj8/view?usp=sharing"
             >
-              Download Resume
-              <DownloadIcon />
+              View Resume
             </a>
           </button>
         </div>
