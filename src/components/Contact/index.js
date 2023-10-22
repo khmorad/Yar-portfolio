@@ -6,12 +6,9 @@ import FileDownloadDoneIcon from "@mui/icons-material/FileDownloadDone";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import CopyrightIcon from "@mui/icons-material/Copyright";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import * as LottiePlayer from "@lottiefiles/lottie-player";
 import { useState } from "react";
 
 export default function Contact() {
@@ -23,9 +20,9 @@ export default function Contact() {
     const { username, email, message } = e.target.elements;
    // const { REACT_APP_SERVICEID, REACT_APP_TEMPLATE, REACT_APP_PUBLICKEY } =
      // process.env;
-   const   REACT_APP_SERVICEID="service_ldxv3um"
-   const REACT_APP_TEMPLATE="template_32zpz2o"
-   const REACT_APP_PUBLICKEY="9vtldWy8OLVwq19pl"
+   const   REACT_APP_SERVICEID="service_k1wrwub"
+   const REACT_APP_TEMPLATE="template_y1elat9"
+   const REACT_APP_PUBLICKEY="jRGIvist-rp3ksJUP"
     console.log({
       username: username.value,
       email: email.value,
