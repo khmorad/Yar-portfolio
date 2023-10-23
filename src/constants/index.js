@@ -16,7 +16,7 @@ export const projects = [
         color: "blue-300",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1015033055775305831/1156719971863367690/code-assist-ai.png?ex=6515feec&is=6514ad6c&hm=b048df6a4fd6e9a19de6aa4a13122b460d0be490e465cf4c29274a102c561a4d&",
+    img: "https://cdn.discordapp.com/attachments/1015033055775305831/1166088826544980018/image.png?ex=654937d9&is=6536c2d9&hm=e4bd9ab6868958d874eab95e01540b5793f9f64b7af295569cc6b7ebfb15bbf1&",
     link: "https://code-assist-ai.vercel.app/",
     code: "https://github.com/khmorad/code-assist-ai",
   },
