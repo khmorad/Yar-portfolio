@@ -53,7 +53,7 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-            Cisco Virual Program on Forage 
+            Cisco Intro to SWE on Forage 
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
               Completed on Augest 4, 2023
