@@ -31,7 +31,7 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            I am {getDate()}-years-old student at San Jose State University, pursuing a Bachelor's degree with a strong focus on computer science. Alongside my academic pursuits, I excel in sports, piano, and have a deep passion for creating web applications. This diverse skill set has honed my discipline, attention to detail, and ability to thrive under pressure traits essential in software engineering. 
+            I am a {getDate()}-years-old student currently pursuing a degree in computer science at San Jose State University. My main focus and passion lie in the world of web application development. In addition to my academic pursuits, I have a keen interest in sports and am accomplished in playing the piano. Through these varied interests, I have developed a strong foundation in software engineering, with a particular emphasis on attention to detail and the ability to handle high-pressure situations. My approach to application development is centered around creating seamless and user-friendly experiences. I take pride in my ability to bring together design and functionality, resulting in applications that not only work well but also provide a positive user experience. This ability has been honed through a combination of hands-on projects and coursework, allowing me to adapt and learn quickly. 
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
