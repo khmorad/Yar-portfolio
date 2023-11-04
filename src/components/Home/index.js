@@ -25,8 +25,8 @@ export default function Home() {
           options={{
             strings: [
               "✋I'm Khashayar Moradpour",
-              "I'm an anspiring Software Developer!",
-              "I'm a 3th yr Computer science in San Jose State University",
+              "I'm an aspiring Software Developer!",
+              "I'm a 3rd yr Computer science in San Jose State University",
               "You can 📲 me through discord or ✉️",
             ],
             delay: 48,
