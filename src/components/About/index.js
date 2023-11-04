@@ -31,11 +31,12 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            I am a {getDate()}-years-old student currently pursuing a degree in computer science at San Jose State University. My main focus and passion lie in the world of web application development. In addition to my academic pursuits, I have a keen interest in sports and am accomplished in playing the piano. Through these varied interests, I have developed a strong foundation in software engineering, with a particular emphasis on attention to detail and the ability to handle high-pressure situations. My approach to application development is centered around creating seamless and user-friendly experiences. I take pride in my ability to bring together design and functionality, resulting in applications that not only work well but also provide a positive user experience. This ability has been honed through a combination of hands-on projects and coursework, allowing me to adapt and learn quickly. 
+            Hello! My name is Khashayar Moradpour and I am {getDate()}-years-old computer science student at San Jose State University with a deep passion about developing web application. Alongside my studies, I excel in sports and enjoy playing the piano. My focus on software engineering has instilled in me a keen eye for detail and the ability to thrive under pressure. I take pride in creating user-friendly applications that seamlessly blend design and functionality. I'm eager to bring my skills to your team and contribute to meaningful projects. 
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
+            style={{ paddingBottom: '80px' }}
           >
             I am currently looking for Internships. I have over 5 years exprience in coding and I have attended many <a className= "text-yellow-600"href="https://devpost.com/woddyowl">hackathons</a> which in the past I have worked with React.js, Next.js, Python and many more mentioned on my <a className= "text-yellow-600"href="#resume">resume</a>. I am
             also looking to collaborate in open-source projects.
