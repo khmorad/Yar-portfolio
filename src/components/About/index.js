@@ -31,7 +31,7 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            Hello! My name is Khashayar Moradpour and I am {getDate()}-years-old computer science student at San Jose State University with a deep passion for developing web applications. Alongside my studies, I excel in sports and enjoy playing the piano. My focus on software engineering has instilled in me a keen eye for detail and the ability to thrive under pressure. I take pride in creating user-friendly applications that seamlessly blend design and functionality. I'm eager to bring my skills to your team and contribute to meaningful projects. 
+            Hello! My name is Khashayar Moradpour and I am {getDate()}-years-old computer science student at San Jose State University with a deep passion for developing web applications. Alongside my studies, I excel in sports and enjoy playing the piano. My focus on software engineering has instilled in me a keen eye for detail and the ability to thrive under pressure. I take pride in creating user-friendly applications that seamlessly blend design and functionality. 
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
