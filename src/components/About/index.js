@@ -43,34 +43,29 @@ export default function About() {
           </p>
         </div>
 
-        <div
-          class="relative flex-auto w-32   sm:rounded-lg  pl-4"
-          data-aos={"slide-left"}
-        >
-          {/* <img
-            src={LearningCode}
-            alt="Learning Code"
-            className="motion-safe:animate-zoomy"
-          /> */}
-          <div className="motion-safe:animate-zoomy">
-            <lottie-player
-              autoplay
-              loop
-              mode="bounce"
-              src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
-              style={{ width: "350px" }}
-            />
-          </div>
-          <button className="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/1j3zq63xCjbE4RBF-Bumj124Z79jFsoj8/view?usp=sharing"
-            >
-              View Resume
-            </a>
-          </button>
-        </div>
+        <div class="relative">
+  <div class="motion-safe:animate-zoomy">
+    <lottie-player
+      autoplay
+      loop
+      mode="bounce"
+      src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
+      style={{ width: "350px" }}
+    />
+  </div>
+  <div class="flex justify-center">
+    <button class="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://drive.google.com/file/d/1j3zq63xCjbE4RBF-Bumj124Z79jFsoj8/view?usp=sharing"
+      >
+        View Resume
+      </a>
+    </button>
+  </div>
+</div>
+
       </div>
     </div>
   );
