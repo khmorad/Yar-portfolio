@@ -24,12 +24,12 @@ export default function About() {
       </div>
       <div className="flex flex-row  gap-6 ml-8">
         <div className="flex-col mt-14 flex flex-auto w-64 gap-6">
-          <h3 className="text-3xl font-medium" data-aos={"fade-left"}>
+          <h3 className="text-3xl font-medium" data-aos={"fade-right"}>
             I'm <span className="text-yellow-600">Khashayar Morapdour,</span> an aspiring Software Developer
           </h3>
           <p
             className="pt-5 leading-7 text-slate-900 text-justify"
-            data-aos={"fade-left"}
+            data-aos={"fade-right"}
           >
             Hello! My name is Khashayar Moradpour and I am {getDate()}-years-old computer science student at San Jose State University with a deep passion for developing web applications. Alongside my studies, I excel in sports and enjoy playing the piano. My focus on software engineering has instilled in me a keen eye for detail and the ability to thrive under pressure. I take pride in creating user-friendly applications that seamlessly blend design and functionality. 
           </p>
@@ -44,16 +44,17 @@ export default function About() {
         </div>
 
         <div class="relative">
-  <div class="motion-safe:animate-zoomy">
+  <div class="motion-safe:animate-zoomy" >
     <lottie-player
       autoplay
       loop
       mode="bounce"
       src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
       style={{ width: "350px" }}
+      data-aos={"fade-left"}
     />
   </div>
-  <div class="flex justify-center">
+  <div class="flex justify-center" data-aos={"fade-left"}>
     <button class="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
       <a
         target="_blank"
