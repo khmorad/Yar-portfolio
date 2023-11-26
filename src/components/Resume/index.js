@@ -108,8 +108,7 @@ export default function Resume() {
               Completed on May 25th, 2023
             </time>
             <p class="text-base font-normal text-gray-400">
-              During my time in Diablo Valley College I have learned most of the crucial computer science consepts while also learning how to create applications on my own time and have attended multiple hackathons to test my knowledge while improving my leadership experience.
-
+            During my time at Diablo Valley College, I learned important computer science concepts and independently created applications. I took part in hackathons to test my skills and improve my ability to lead teams. This experience taught me a lot about problem-solving and finding innovative solutions.
             </p>
             <a
               href="https://www.parchment.com/u/award/56f679997bfe5c39f12fda2c860f7a2d/file"
