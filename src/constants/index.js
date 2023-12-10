@@ -42,8 +42,8 @@ export const projects = [
       }
     ],
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1180727491804024862/image.png?ex=6587b3aa&is=65753eaa&hm=83b81f965619ab65e01e11a84c27042ecc8c2aa58704f089f0487aefebd3729e&",
-    link: "https://code-assist-ai.vercel.app/",
-    code: "https://github.com/khmorad/code-assist-ai",
+    link: "https://github.com/khmorad/E_Commerce_Dashboard",
+    code: "https://github.com/khmorad/E_Commerce_Dashboard",
   },
   {
     title: "Ai Assist",
@@ -107,8 +107,8 @@ export const projects = [
       },
     ],
     img: "https://cdn.dribbble.com/users/1330777/screenshots/15577912/media/3441c6b4d1427a5e54d2b53607891a71.gif",
-    link: "https://github.com/khmorad/E_Commerce_Dashboard",
-    code: "https://github.com/khmorad/E_Commerce_Dashboard",
+    link: "https://github.com/khmorad/stock_pridiction_experiment",
+    code: "https://github.com/khmorad/stock_pridiction_experiment",
   },
   {
     title: "Cisco Sextant Dashboard",
