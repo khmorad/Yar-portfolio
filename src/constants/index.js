@@ -5,7 +5,7 @@ export const projects = [
     tags: [
       {
         name: "React.js",
-        color: "red-600",
+        color: "blue-400",
       },
       {
         name: "OpenAI API",
@@ -13,10 +13,35 @@ export const projects = [
       },
       {
         name: "Django",
-        color: "blue-300",
+        color: "purple-300",
       },
     ],
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1166088826544980018/image.png?ex=654937d9&is=6536c2d9&hm=e4bd9ab6868958d874eab95e01540b5793f9f64b7af295569cc6b7ebfb15bbf1&",
+    link: "https://code-assist-ai.vercel.app/",
+    code: "https://github.com/khmorad/code-assist-ai",
+  },  
+  {
+    title: "E-commerce Data Analysis Dashboard",
+    desc: "A Tkinter application powered by Python, this project harnesses Walmart's e-commerce data via the Axesso API to create a user-friendly analytical dashboard. Leveraging Pandas, Matplotlib, and Seaborn, it aggregates and cleans real-time data, generating insightful visualizations like correlation matrices and scatter plots. The dashboard allows dynamic exploration through keyword searches, providing up-to-date insights for e-commerce businesses.",
+    tags: [
+      {
+        name: "Python",
+        color: "red-600",
+      },
+      {
+        name: "Pandas",
+        color: "green-600",
+      },
+      {
+        name: "matplotlib",
+        color: "orange-300",
+      },
+      {
+        name: "seaborn",
+        color: "grey-300",
+      }
+    ],
+    img: "https://cdn.discordapp.com/attachments/1015033055775305831/1180727491804024862/image.png?ex=6587b3aa&is=65753eaa&hm=83b81f965619ab65e01e11a84c27042ecc8c2aa58704f089f0487aefebd3729e&",
     link: "https://code-assist-ai.vercel.app/",
     code: "https://github.com/khmorad/code-assist-ai",
   },
@@ -26,7 +51,7 @@ export const projects = [
     tags: [
       {
         name: "React.js",
-        color: "red-600",
+        color: "blue-400",
       },
       {
         name: "OpenAI API",
@@ -78,12 +103,12 @@ export const projects = [
       },
       {
         name: "polygon API",
-        color: "yellow-600",
+        color: "green-200",
       },
     ],
     img: "https://cdn.dribbble.com/users/1330777/screenshots/15577912/media/3441c6b4d1427a5e54d2b53607891a71.gif",
-    link: "https://github.com/khmorad/stock_pridiction_experiment",
-    code: "https://github.com/khmorad/stock_pridiction_experiment",
+    link: "https://github.com/khmorad/E_Commerce_Dashboard",
+    code: "https://github.com/khmorad/E_Commerce_Dashboard",
   },
   {
     title: "Cisco Sextant Dashboard",
