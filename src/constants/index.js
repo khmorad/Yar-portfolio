@@ -86,6 +86,19 @@ export const projects = [
     code: "https://github.com/khmorad/stackoverflow_data_analysis",
   },
   {
+    title: "Library Management System",
+    desc: " a robust Java-based application aimed at digitizing and streamlining library operations. Featuring a user-friendly interface built with Java Swing, this system empowers librarians with complete administrative control, enabling CRUD operations for managing various library items like books, theses, and video tapes. Leveraging a persistent' database using JSON files, the system ensures data retention even after the application is closed.",
+    tags: [
+      {
+        name: "Java",
+        color: "orange-900",
+      },
+    ],
+    img: "https://raw.githubusercontent.com/khmorad/CS151_Library_Management_System/main/project-report/image.png",
+    link: "https://github.com/khmorad/CS151_Library_Management_System",
+    code: "https://github.com/khmorad/CS151_Library_Management_System",
+  },
+  {
     title: "Stock Prediction Experiment",
     desc: "A python program design to use machiene learning models like linear regression and Long Short-Term Memory to predict stocks ",
     tags: [
