@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <Layout>
-      {windowWidth > 768 && <Slidebar />} {/* Show Slidebar only if windowWidth is greater than 768 pixels */}
+      {windowWidth > 768 && <Slidebar />} 
       <Display />
     </Layout>
   );

@@ -2,9 +2,21 @@ import "../../App.css";
 import DownloadIcon from "@mui/icons-material/Download";
 // import LearningCode from "../../assets/images/learn-coding-clipart.svg";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
-
+import {React,useState, useEffect} from "react";
 export default function About() {
-  
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   const getDate = () => {
     //changing the age without hard coding it
     var dob = new Date("09/11/2000");
