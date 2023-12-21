@@ -9,11 +9,27 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Contact() {
   const [mailSent, setMailSent] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  let winSize = 0
+  winSize = windowWidth > 768? winSize = 10: winSize = 0
+    
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   const handleSubmit = (e) => {
     setLoading(true);
     e.preventDefault();
@@ -81,7 +97,7 @@ export default function Contact() {
       <div className="text-5xl font-bold" data-aos={"fade"}>
         Contact
       </div>
-      <div className="flex flex-row  ">
+      <div className={`flex flex-row pr-${winSize}`}>
         <div className="flex-auto  w-32 pl-10 overflow-visible">
           <form onSubmit={handleSubmit} data-aos={"slide-up"}>
             <label class="block mb-2 text-2xl font-semibold mt-3  text-white ">
@@ -183,7 +199,7 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        <div className="flex-auto w-80  flex flex-col justify-center text-center items-center  gap-1">
+        {windowWidth > 980 && <div className="flex-auto w-80  flex flex-col justify-center text-center items-center  gap-1">
           <div data-aos={"fade-left"}>
             <lottie-player
               autoplay
@@ -230,7 +246,8 @@ export default function Contact() {
             </div>
    
           </div>
-        </div>
+        </div>}
+        
         <ToastContainer
           position="bottom-center"
           autoClose={5000}
