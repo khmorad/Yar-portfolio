@@ -56,7 +56,7 @@ export default function About() {
         </div>
 
         <div class="relative">
-  <div class="motion-safe:animate-zoomy" >
+    {windowWidth > 768 && <div class="motion-safe:animate-zoomy" >
     <lottie-player
       autoplay
       loop
@@ -65,8 +65,8 @@ export default function About() {
       style={{ width: "350px" }}
       data-aos={"fade-left"}
     />
-  </div>
-  <div class="flex justify-center" data-aos={"fade-left"}>
+  </div>}
+  {windowWidth > 768 && <div class="flex justify-center" data-aos={"fade-left"}>
     <button class="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
       <a
         target="_blank"
@@ -76,7 +76,7 @@ export default function About() {
         View Resume
       </a>
     </button>
-  </div>
+  </div>}
 </div>
 
       </div>

@@ -1,8 +1,24 @@
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import "../../App.css";
+import React,{useState, useEffect} from "react";
 
 export default function Home() {
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+  
   const stringSplitter = (string) => {
     const splitter = new GraphemeSplitter();
     return splitter.splitGraphemes(string);
