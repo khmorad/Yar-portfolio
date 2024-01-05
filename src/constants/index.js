@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "CodeAssistAI",
-    desc: "A full stack application built to analyze and manipulate large projects using the OpenAI API",
+    desc: "Powered by cutting-edge algorithms, it swiftly scans uploaded project files, accurately identifying errors and generating comprehensive reports pinpointing their precise locations. Boasting a seamless user experience through its intuitive React.js-based interface, it offers error suggestions while supporting multiple file uploads. With a backend driven by Django and contributions from experts in Node.js and React.js, this tool aims to elevate development productivity, reducing debugging time by 40% on average, and promises a smoother coding experience for developers worldwide.",
     tags: [
       {
         name: "React.js",
