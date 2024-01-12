@@ -47,7 +47,7 @@ export const projects = [
   },
   {
     title: "Ai Assist",
-    desc: "A website created for the sole purpose of assiting students on the writing skills using the power of AI",
+    desc: "A groundbreaking program that revolutionizes the essay writing process for students. This advanced tool seamlessly integrates essay critique and revision features, utilizing state-of-the-art natural language processing algorithms for constructive feedback. Beyond traditional capabilities, AI Assist boasts image-to-text conversion, effortlessly transforming handwritten essays into editable text. The program goes a step further by providing insightful data-driven insights, allowing users to track progress, identify patterns, and receive personalized recommendations. With a user-friendly interface, AI Assist combines innovation and simplicity, offering a holistic writing experience where technology meets academic excellence.",
     tags: [
       {
         name: "React.js",
