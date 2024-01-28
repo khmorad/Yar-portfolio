@@ -64,7 +64,7 @@ export const projects = [
     code: "https://github.com/khmorad/AI_Assist_MetroHacks_2022",
   },
   {
-    title: "Data Analysis (stackoverflow)",
+    title: "Data Analysis (stackoverflow experiment)",
     desc: "By using python this project demonstrates my ability to manipulate and analyze data effectively, extract meaningful conclusions, and visualize findings for a broader audience. By leveraging the power of Pandas, I've explored various aspects of the survey data, uncovering valuable information that can shed light on the developer landscape.",
     tags: [
       {
