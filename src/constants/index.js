@@ -19,7 +19,7 @@ export const projects = [
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1166088826544980018/image.png?ex=654937d9&is=6536c2d9&hm=e4bd9ab6868958d874eab95e01540b5793f9f64b7af295569cc6b7ebfb15bbf1&",
     link: "https://code-assist-ai.vercel.app/",
     code: "https://github.com/khmorad/code-assist-ai",
-  },  
+  },
   {
     title: "E-commerce Data Analysis Dashboard",
     desc: "A Tkinter application powered by Python, this project harnesses Walmart's e-commerce data via the Axesso API to create a user-friendly analytical dashboard. Leveraging Pandas, Matplotlib, and Seaborn, it aggregates and cleans real-time data, generating insightful visualizations like correlation matrices and scatter plots. The dashboard allows dynamic exploration through keyword searches, providing up-to-date insights for e-commerce businesses.",
@@ -39,11 +39,28 @@ export const projects = [
       {
         name: "seaborn",
         color: "grey-300",
-      }
+      },
     ],
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1180727491804024862/image.png?ex=6587b3aa&is=65753eaa&hm=83b81f965619ab65e01e11a84c27042ecc8c2aa58704f089f0487aefebd3729e&",
     link: "https://github.com/khmorad/E_Commerce_Dashboard",
     code: "https://github.com/khmorad/E_Commerce_Dashboard",
+  },
+  {
+    title: "Algorithm Visualizer",
+    desc: "Built with React leverages dynamic visualization techniques to vividly illustrate the sorting processes of popular algorithms such as Bubble Sort, Insertion Sort, Merge Sort, and Quick Sort. With intuitive controls for adjusting the number of elements in the array and the sorting speed, users can witness real-time sorting animations that enhance understanding and intuition behind these algorithms. Each sorting process is meticulously highlighted step-by-step, providing a comprehensive learning experience. The elegant design coupled with interactive elements makes this tool not only educational but also visually captivating, offering a compelling exploration of fundamental computer science concepts.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-400",
+      },
+      {
+        name: "JavaScript",
+        color: "orange-500",
+      },
+    ],
+    img: "https://cdn.discordapp.com/attachments/829483765163098197/1206459263111663626/image.png?ex=65dc15bf&is=65c9a0bf&hm=9013bdf9f6452e6ff5a6d42ed3c8e325a1884a8e5fdf21cc6f70aea7aac32a39&",
+    link: "https://github.com/khmorad/algorithm-visualizer",
+    code: "https://github.com/khmorad/algorithm-visualizer",
   },
   {
     title: "Ai Assist",
@@ -57,7 +74,6 @@ export const projects = [
         name: "OpenAI API",
         color: "green-600",
       },
-    
     ],
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1161793688947658822/image.png?ex=653997b0&is=652722b0&hm=ddfd1815f13ff7818316f6bda4cf541a033c2ac6983ae8804f805e03005bc90f&",
     link: "https://ai-assist-eight.vercel.app/",
@@ -79,7 +95,6 @@ export const projects = [
         name: "numpy",
         color: "yellow-600",
       },
-   
     ],
     img: "https://cdn.stackoverflow.co/images/jo7n4k8s/production/01318ce55cab0d508bd88b6ec5610ec1c659060a-2400x1260.png?w=1200&h=630&auto=format&dpr=2",
     link: "https://github.com/khmorad/stackoverflow_data_analysis",
@@ -139,7 +154,6 @@ export const projects = [
         name: "ipify API",
         color: "yellow-600",
       },
-     
     ],
     img: "https://cdn.discordapp.com/attachments/1015033055775305831/1156719942582931476/cisco_sextant.jpg?ex=6515fee5&is=6514ad65&hm=63761616da6969bf7a17692feec323cb8e78ac03b5d0fdec7a7fee0b5a48f128&",
     link: "https://www.youtube.com/watch?v=YtyWXA_kwBk&ab_channel=khashayarmoradpour",

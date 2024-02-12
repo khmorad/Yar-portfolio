@@ -15,30 +15,29 @@ export default function Contact() {
   const [mailSent, setMailSent] = useState(false);
   const [loading, setLoading] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  let winSize = 0
-  winSize = windowWidth > 768? winSize = 10: winSize = 0
-    
-  
+  let winSize = 0;
+  winSize = windowWidth > 768 ? (winSize = 10) : (winSize = 0);
+
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
   const handleSubmit = (e) => {
     setLoading(true);
     e.preventDefault();
     const { username, email, message } = e.target.elements;
-   // const { REACT_APP_SERVICEID, REACT_APP_TEMPLATE, REACT_APP_PUBLICKEY } =
-     // process.env;
-   const   REACT_APP_SERVICEID="service_k1wrwub"
-   const REACT_APP_TEMPLATE="template_y1elat9"
-   const REACT_APP_PUBLICKEY="jRGIvist-rp3ksJUP"
+    // const { REACT_APP_SERVICEID, REACT_APP_TEMPLATE, REACT_APP_PUBLICKEY } =
+    // process.env;
+    const REACT_APP_SERVICEID = "service_k1wrwub";
+    const REACT_APP_TEMPLATE = "template_y1elat9";
+    const REACT_APP_PUBLICKEY = "jRGIvist-rp3ksJUP";
     console.log({
       username: username.value,
       email: email.value,
@@ -199,55 +198,49 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        {windowWidth > 980 && <div className="flex-auto w-80  flex flex-col justify-center text-center items-center  gap-1">
-          <div data-aos={"fade-left"}>
-            <lottie-player
-              autoplay
-              loop
-              mode="bounce"
-              src="https://assets9.lottiefiles.com/packages/lf20_3rqwsqnj.json"
-              style={{ width: "350px" }}
-            />
-          </div>
-          <div data-aos={"slide-up"} className="text-center">
-            <div className="text-center mt-2 text-3xl font-bold">Follow Me</div>
-            <div className="text-white flex flex-row gap-7 w-fit mx-auto pt-4">
-              <div
-                onClick={() =>
-                  window.open("https://github.com/khmorad", "_blank")
-                }
-              >
-                <GitHubIcon className="cursor-pointer hover:scale-105" />
-              </div>
-              <div
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/kmoradpour/",
-                    "_blank"
-                  )
-                }
-              >
-                {" "}
-                <LinkedInIcon className="cursor-pointer hover:scale-105" />
-              </div>
-              <div
-                onClick={() =>
-                  window.open(
-                    "",
-                    "_blank"
-                  )
-                }
-              >
-                {" "}
-                <InstagramIcon className="cursor-pointer hover:scale-105" />
-              </div>
-
-
+        {windowWidth > 980 && (
+          <div className="flex-auto w-80  flex flex-col justify-center text-center items-center  gap-1">
+            <div data-aos={"fade-left"}>
+              <lottie-player
+                autoplay
+                loop
+                mode="bounce"
+                src="https://assets9.lottiefiles.com/packages/lf20_3rqwsqnj.json"
+                style={{ width: "350px" }}
+              />
             </div>
-   
+            <div data-aos={"slide-up"} className="text-center">
+              <div className="text-center mt-2 text-3xl font-bold">
+                Follow Me
+              </div>
+              <div className="text-white flex flex-row gap-7 w-fit mx-auto pt-4">
+                <div
+                  onClick={() =>
+                    window.open("https://github.com/khmorad", "_blank")
+                  }
+                >
+                  <GitHubIcon className="cursor-pointer hover:scale-105" />
+                </div>
+                <div
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/kmoradpour/",
+                      "_blank"
+                    )
+                  }
+                >
+                  {" "}
+                  <LinkedInIcon className="cursor-pointer hover:scale-105" />
+                </div>
+                <div onClick={() => window.open("", "_blank")}>
+                  {" "}
+                  <InstagramIcon className="cursor-pointer hover:scale-105" />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>}
-        
+        )}
+
         <ToastContainer
           position="bottom-center"
           autoClose={5000}
