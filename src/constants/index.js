@@ -144,7 +144,7 @@ export const projects = [
     tags: [
       {
         name: "React.js",
-        color: "red-600",
+        color: "blue-400",
       },
       {
         name: "NextJs",
