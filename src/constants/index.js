@@ -30,7 +30,7 @@ export const projects = [
       },
       {
         name: "Pandas",
-        color: "green-600",
+        color: "green-800",
       },
       {
         name: "matplotlib",
@@ -89,7 +89,7 @@ export const projects = [
       },
       {
         name: "pandas",
-        color: "green-600",
+        color: "green-800",
       },
       {
         name: "numpy",
@@ -123,7 +123,7 @@ export const projects = [
       },
       {
         name: "pandas",
-        color: "green-600",
+        color: "green-800",
       },
       {
         name: "Machine Learning",
