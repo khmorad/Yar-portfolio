@@ -21,6 +21,26 @@ export const projects = [
     code: "https://github.com/khmorad/code-assist-ai",
   },
   {
+    title: "Car Dealership Management System",
+    desc: "comprehensive car dealership management system integrating React for a seamless frontend, Flask for backend connectivity to MySQL, an OpenAI API-powered chatbot for customer assistance, and a login system with specialized employee dashboards for administrative purposes.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-400",
+      },
+      {
+        name: "OpenAI API",
+        color: "green-600",
+      },
+      {
+        name: "Flask",
+        color: "purple-200",
+      },
+    ],
+    img: "https://github.com/khmorad/Yar-portfolio/blob/main/src/assets/images/CODEASSIST.png?raw=true",
+    code: "https://github.com/khmorad/Car_Dealership_Management_System",
+  },
+  {
     title: "E-commerce Data Analysis Dashboard",
     desc: "A Tkinter application powered by Python, this project harnesses Walmart's e-commerce data via the Axesso API to create a user-friendly analytical dashboard. Leveraging Pandas, Matplotlib, and Seaborn, it aggregates and cleans real-time data, generating insightful visualizations like correlation matrices and scatter plots. The dashboard allows dynamic exploration through keyword searches, providing up-to-date insights for e-commerce businesses.",
     tags: [
