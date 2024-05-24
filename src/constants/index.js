@@ -37,7 +37,7 @@ export const projects = [
         color: "purple-200",
       },
     ],
-    img: "https://github.com/khmorad/Yar-portfolio/blob/main/src/assets/images/CODEASSIST.png?raw=true",
+    img: "https://github.com/khmorad/Yar-portfolio/blob/main/src/assets/images/carDealer.png?raw=true",
     code: "https://github.com/khmorad/Car_Dealership_Management_System",
   },
   {
