@@ -37,8 +37,34 @@ export const projects = [
         color: "purple-200",
       },
     ],
-    img: "https://github.com/khmorad/Yar-portfolio/blob/main/src/assets/images/car.png?raw=true",
+    img: "https://github.com/khmorad/Yar-portfolio/blob/main/src/assets/images/dealer.png?raw=true",
+    link: "https://www.youtube.com/watch?v=VmVytncY6dc",
     code: "https://github.com/khmorad/Car_Dealership_Management_System",
+  },
+  {
+    title: "recepieMakerAI",
+    desc: "RecipeMakeAI is a web application that enables users to generate recipes by inputting ingredients through a search bar or uploading images for ingredient detection. Utilizing Flask for the backend, TensorFlow for object detection, and the OpenAI API for estimating preparation time and calorie counts, the app offers a comprehensive recipe generation experience. The recipes are fetched from the Edamam API, ensuring a diverse and extensive recipe database. The frontend is built with React, providing a user-friendly interface, while additional functionalities are enhanced using HTML, CSS, and JavaScript.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-400",
+      },
+      {
+        name: "Flask",
+        color: "purple-200",
+      },
+      {
+        name: "OpenAI API",
+        color: "green-600",
+      },
+      {
+        name: "Machine Learning",
+        color: "blue-800",
+      },
+    ],
+    img: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/931/214/datas/gallery.jpg",
+    link: "https://recepie-maker-ai.vercel.app/r",
+    code: "https://github.com/khmorad/recepieMakerAI",
   },
   {
     title: "E-commerce Data Analysis Dashboard",
