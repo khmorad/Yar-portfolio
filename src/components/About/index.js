@@ -96,7 +96,7 @@ export default function About() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1j3zq63xCjbE4RBF-Bumj124Z79jFsoj8/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Oo7hqzEQo4Wzvv-ClZoQiVlFhWfeQuhi/view?usp=sharing"
                 >
                   View Resume
                 </a>
