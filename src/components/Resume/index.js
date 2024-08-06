@@ -32,9 +32,10 @@ export default function Resume() {
               Aug 2023 - Present
             </time>
             <p class="mb-4 text-base font-normal  text-gray-400">
-              during my time in San Jose State University im planning to optaine my bachelors in computer science while being more involved into community and gain more experience.
+              during my time in San Jose State University im planning to optaine
+              my bachelors in computer science while being more involved into
+              community and gain more experience.
             </p>
-
           </li>
           <li class="mb-10" data-aos="zoom-out" data-aos-delay="700">
             <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-blue-900">
@@ -53,15 +54,15 @@ export default function Resume() {
               </svg>
             </span>
             <h3 class="mb-1 text-lg font-semibold text-white">
-            Cisco Intro to SWE on Forage 
+              Cisco Intro to SWE on Forage
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
               Completed on Augest 4, 2023
             </time>
             <p class="text-base font-normal text-gray-400">
-              Through this program I have developed a better undrestanding of how Cisco employees approach problems, organize 
-              and prioritize and communicate clearly and apply these skils to projects
-              
+              Through this program I have developed a better undrestanding of
+              how Cisco employees approach problems, organize and prioritize and
+              communicate clearly and apply these skils to projects
             </p>
             <a
               target="_blank"
@@ -83,7 +84,6 @@ export default function Resume() {
               </svg>{" "}
               Download Certificate
             </a>
-            
           </li>
           <li data-aos="zoom-in" data-aos-offset={"-15"} data-aos-delay="1300">
             <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-blue-900">
@@ -108,7 +108,11 @@ export default function Resume() {
               Completed on May 25th, 2023
             </time>
             <p class="text-base font-normal text-gray-400">
-            During my time at Diablo Valley College, I learned important computer science concepts and independently created applications. I took part in hackathons to test my skills and improve my ability to lead teams. This experience taught me a lot about problem-solving and finding innovative solutions.
+              During my time at Diablo Valley College, I learned important
+              computer science concepts and independently created applications.
+              I took part in hackathons to test my skills and improve my ability
+              to lead teams. This experience taught me a lot about
+              problem-solving and finding innovative solutions.
             </p>
             <a
               href="https://www.parchment.com/u/award/56f679997bfe5c39f12fda2c860f7a2d/file"
@@ -162,18 +166,18 @@ export default function Resume() {
             <BarGraph name={"TypeScript"} percent={30} />
             <BarGraph name={"Java"} percent={60} />
             <BarGraph name={"HTML/CSS"} percent={96} />
-            <BarGraph name={"SQL"} percent={65} />
+            <BarGraph name={"SQL"} percent={90} />
             <BarGraph name={"AWS"} percent={20} />
             <BarGraph name={"C++/C"} percent={82} />
           </div>
 
           <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/1j3zq63xCjbE4RBF-Bumj124Z79jFsoj8/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            href="https://drive.google.com/file/d/1j3zq63xCjbE4RBF-Bumj124Z79jFsoj8/view?usp=sharing"
             class="inline-flex items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
           >
-            View Resume 
+            View Resume
           </a>
         </div>
       </div>
